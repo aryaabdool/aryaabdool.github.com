@@ -1,1 +1,135 @@
+/********* 
+CSS COLORS TO USE 
+GREEN: #baf291;
+BLUE: #50bf95;
+RED: #f72548;
+GREY: #5e5959;
+ORANGE: #ff845e;
+YELLOW: #f5dd85;
+*********/
+
+
+
+
+header {
+	overflow: hidden;
+	background-color: yellow;
+	position: fixed;
+	width: 100%;
+}
+
+	.title {
+		font-family: helvetica, arial, sans-serif; 
+		float: left;
+		background-color: yellow; 
+		padding-left: 30px; 
+	}
+
+	nav {
+		font-family: helvetica, arial, sans-serif;
+		/*float: right;*/
+		background-color: #5e5959;
+	}
+
+	.main-nav {
+		overflow: hidden;
+		font-size: 20px;
+		list-style: none;
+		display: inline-block;
+		text-align: center;
+		margin: 5px; 
+		line-height: 20px;
+	}
+		li {
+			float: right;
+
+		}
+.nav-photo {
+	width: 80%;
+	height: auto;
+}	
+
+.welcome-quote {
+	text-align: center;
+	background-color: #50bf95;
+}
+
+.directory {
+	font-family: helvetica, arial, sans-serif;
+}
+
+	.photo-links {
+		list-style: none; 	
+	}
+
+/*****footer*******/
+.arya-photo {
+	border-radius: 50%;
+	width: 210px;
+	height: auto;
+	float: right;
+	padding: 10px 30px;
+	position: relative;
+	top: -200px;
+
+}
+
+footer {
+	background-color: #f5dd85; 
+	overflow: hidden;
+	float: right;
+	width: 280px;
+	position: fixed;
+	top: 155px;
+	right: 10px;
+}
+
+.about { 
+	font-family: helvetica, arial, sans-serif;
+	background-color: pink;
+	float: left;
+	text-align: center;
+	width: 250px;
+	height: auto;
+	padding: 10px 30px;
+	position: relative;
+	bottom: -240px;
+}
+
+.social-media {
+	display: inline-block;
+	float: left; 
+	background-color: pink;
+	padding-left: 25px;
+	padding-right: 25px;
+	position: relative;
+	right: -55px;
+}
+
+}
+
+/*****Responsive******/
+
+/****** @media (min-width: 320px) {
+	.arya-photo{
+		position: absolute;
+		float: none;
+		top: -200px;
+	}
+	
+	.nav-photo {
+		width: 0px;
+	}
+	
+	li .photo-links {
+		width: 100%;
+		font-size: 18px;
+	}
+
+	footer {
+		position: 
+	}
+}*********/
+
+
 
