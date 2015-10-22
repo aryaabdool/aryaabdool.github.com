@@ -1,59 +1,33 @@
-/****PINK: #e9003a
-ORANGE: #ff5300
-TEAL: #DDab6f
-GREEN: #58E000 ****/
-
-body {
-	font-family: sans-serif;
-}
-
-header {
-	width: 100%;
-	overflow: hidden;
-}
-
 .my-name {
-    width: 100%;
-    position: fixed;
-    text-align: center;
-    font-size: 2rem;
-    background-color: tomato;
-    margin: 0.5rem -0.5rem;
+	background-color: tomato;
 }
 
 nav {
-    position: fixed;
-    top: 6.7rem;
-    width: 100%;
-    font-size: 1.0rem;
-    background-color: green;
-    text-transform: lowercase;
-    text-align: center;
-}
-	
-	li {
-		display: inline-block;
-	}
-
-
-.mission-statement {
-    position: fixed;
-    top: 13.9rem;
-    width: 100%;
-    background-color: blue;
-    padding: 10rem;
-}
-	.mission-statement-text {
-		font-size: 3rem;
-		font-color: tomato;
-	}
-
-.arya-photo {
-	border-radius: 50%;
-	
+	background-color: teal; 
 }
 
-.coverletter {
-	position: fixed;
-	top: 5rem;
+.mission-statement-image {
+	background-color: tomato;
+
 }
+
+.mission-statement-text {
+	background-color: teal;
+	width: 75%;
+}
+
+.cover-letter {
+	background-color: tomato;
+	width: 75%;
+}
+
+footer {
+	background-color: grey;
+	width: 25%;
+	position: 
+}
+	.arya-photo {
+		border-radius: 50%;
+    	margin: 4px;
+    	border: white solid 5px
+   	}
