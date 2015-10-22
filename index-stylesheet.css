@@ -7,25 +7,53 @@ body {
 	font-family: sans-serif;
 }
 
-.title {
+header {
 	width: 100%;
-	position: fixed;
-	text-align: center;
+	overflow: hidden;
+}
+
+.my-name {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    font-size: 2rem;
+    background-color: tomato;
+    margin: 0.5rem -0.5rem;
 }
 
 nav {
-	position: fixed;
-	width: 100%;
+    position: fixed;
+    top: 6.7rem;
+    width: 100%;
+    font-size: 1.0rem;
+    background-color: green;
+    text-transform: lowercase;
+    text-align: center;
 }
+	
 	li {
 		display: inline-block;
 	}
 
+
 .mission-statement {
-	position: relative 2rem;
+    position: fixed;
+    top: 13.9rem;
+    width: 100%;
+    background-color: blue;
+    padding: 10rem;
 }
+	.mission-statement-text {
+		font-size: 3rem;
+		font-color: tomato;
+	}
 
 .arya-photo {
 	border-radius: 50%;
 	
+}
+
+.coverletter {
+	position: fixed;
+	top: 5rem;
 }

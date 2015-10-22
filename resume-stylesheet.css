@@ -1,0 +1,31 @@
+/****PINK: #e9003a
+ORANGE: #ff5300
+TEAL: #DDab6f
+GREEN: #58E000 ****/
+
+body {
+	font-family: sans-serif;
+}
+
+.myname {
+	width: 100%;
+	position: fixed;
+	text-align: center;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+}
+	li {
+		display: inline-block;
+	}
+
+.mission-statement {
+	position: relative 2rem;
+}
+
+.arya-photo {
+	border-radius: 50%;
+	
+}
