@@ -1,0 +1,84 @@
+body {
+	font-family: sans-serif; 
+}
+
+header {
+	width: 100%;
+}
+
+.my-name {
+    background-color: tomato;
+    text-align: center;
+    line-height: 5rem;
+    position: static;
+    top: -21px;
+    width: 100%;
+    color: white;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+
+nav {
+	background-color: teal;
+    font: 1rem;
+    line-height: 3rem;
+    text-align: center;
+    position: static;
+    top: 80px;
+    width: 100%;
+}
+
+	li {
+		display: inline-block;
+		text-decoration: none;
+		margin: 0rem 7rem;
+	}
+
+/*.mission-statement-image {
+	background-color: tomato;
+    width: 75%;
+    position: fixed;
+    top: 119px;
+    line-height: 15rem;
+    text-align: center;
+    font-size: 2rem;
+}*/
+
+.mission-statement-text {
+	background-color: blue;
+    width: 75%;
+    position: static;
+    top: 111px;
+    padding: 6rem 0rem;
+ }
+ 	.cover-letter {
+    font-size: 1.5rem;
+    text-align: center;
+    position: static;
+    top: 352px;
+    width: 75%;
+	background-color: tomato;
+}
+
+footer {
+	background-color: grey;
+    width: 25%;
+    position: relative;
+    top: -416px;
+    right: %;
+    left: 75%;
+}
+
+	.arya-photo {
+	    border-radius: 50%;
+  	  	margin: 56px 86px;
+    	border: white solid 5px;
+    }
+
+    .about {
+    	text-align: center;
+    	font-size: 2rem;
+    	padding: 2rem;
+    	background-color: white;
+    	margin: 3rem;
+    }
