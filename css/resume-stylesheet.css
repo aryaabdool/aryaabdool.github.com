@@ -1,31 +1,119 @@
-/****PINK: #e9003a
-ORANGE: #ff5300
-TEAL: #DDab6f
-GREEN: #58E000 ****/
+/*FONTS
+font-family: 'Sacramento', cursive;
+font-family: 'Spinnaker', sans-serif;*/
+
 
 body {
 	font-family: sans-serif;
 }
 
-.myname {
-	width: 100%;
-	position: fixed;
-	text-align: center;
+header {
+    width: 100%;
+}
+
+.my-name {
+    font-family: 'Sacramento', cursive;
+    background-color: tomato;
+    text-align: center;
+    line-height: 5rem;
+    position: static;
+    color: white;
+    font-size: 4.0rem;
+    padding: 1rem;
+	font-weight: normal;
 }
 
 nav {
-	position: fixed;
-	width: 100%;
+    font-family: 'Spinnaker', sans-serif;
+	background-color: teal;
+    font: 1rem;
+    line-height: 3rem;
+    text-align: center;
+    position: static;
+    top: 80px;
+    width: 100%;
 }
+
 	li {
 		display: inline-block;
+		text-decoration: none;
+		margin: 0rem 7rem;
 	}
 
-.mission-statement {
-	position: relative 2rem;
+/*.mission-statement-image {
+	background-color: tomato;
+    width: 75%;
+    position: fixed;
+    top: 119px;
+    line-height: 15rem;
+    text-align: center;
+    font-size: 2rem;
+}*/
+
+.main {
+	width: 75%;
+	float: left;
 }
 
-.arya-photo {
-	border-radius: 50%;
-	
+	.skills {
+		background-color: blue;
+	    position: static;
+	    top: 111px;
+	    padding: 6rem 0rem;
+	 }
+
+	.experience {
+	    background-color: tomato;
+	    position: static;
+	    top: 111px;
+	    padding: 6rem 0rem;
+	}
+
+	.hobbies {
+		background-color: blue;
+	    position: static;
+	    top: 111px;
+	    padding: 6rem 0rem;
+	}
+
+.sidebar {
+	width: 25%;
+	float: right; 
+    background-color: lightcyan;
 }
+
+	.education-title {
+		font-family: 'Sacramento', cursive;
+		font-size: 4.5rem;
+		font-weight: normal;
+	}
+
+	.arya-photo {
+	    border-radius: 50%;
+    	border: white solid 13px;
+    	margin-top: 0.75rem;
+    	position: relative;
+    	top: 1rem;
+    	left: 1.5rem;
+	}
+
+	.education {
+	    text-align: center;
+   	 	font-family: 'Spinnaker', sans-serif;
+    	padding: 2rem 0rem;
+	}
+
+		.school {
+			font-size: 1.5rem;
+		}
+
+			.degree {
+				font-size: 1rem;
+   				margin: 1.75rem;
+			}
+
+footer {
+    width: 100%;
+    display: inline-block;
+ }
+
