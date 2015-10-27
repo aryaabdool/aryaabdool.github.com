@@ -4,33 +4,34 @@ font-family: 'Spinnaker', sans-serif;*/
 
 
 body {
-    font-family: sans-serif; 
+    font-family: sans-serif;
 }
 
 header {
     width: 100%;
+    position: relative;
+    top: -5rem;
+    height: 7.4rem;
 }
 
 .my-name {
     font-family: 'Sacramento', cursive;
     background-color: tomato;
     text-align: center;
-    line-height: 5rem;
-    position: static;
     color: white;
-    font-size: 4.0rem;
+    font-size: 6.5rem;
     padding: 1rem;
     font-weight: normal;
 }
 
 nav {
     font-family: 'Spinnaker', sans-serif;
-    background-color: teal;
-    font: 1rem;
+    background-color: white;
+    font: 1.25rem;
     line-height: 3rem;
     text-align: center;
-    position: static;
-    top: 80px;
+    position: relative;
+    top: -5.4rem;
     width: 100%;
 }
 
@@ -38,7 +39,9 @@ nav {
         display: inline-block;
         text-decoration: none;
         margin: 0rem 7rem;
+        color: tomato;
     }
+
 
 /*.mission-statement-image {
 	background-color: tomato;
@@ -51,7 +54,33 @@ nav {
 }*/
 
 footer {
-	background-color: grey;
-    width: 25%;
-}
+    width: 100%;
+    display: inline-block;
+    background-color: tomato;
+ }
+
+    .social-media {
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top: 3rem;
+    }
+
+    .contact {
+        text-align: center;
+        font-family: 'Sacramento', sans-serif;
+        font-size: 3rem;
+    }
+
+        .message {
+            position: relative;
+            top: -3rem;
+            height: 6rem;
+            border-radius: 10%;
+        }
+
+        .submit-button {
+            position: relative;
+            top: -3rem;
+        }
 
