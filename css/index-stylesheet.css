@@ -5,46 +5,48 @@ font-family: 'Spinnaker', sans-serif;*/
 
 body {
     font-family: sans-serif;
+    overflow: hidden;
 }
 
 header {
-    width: 100%;
-    position: relative;
-    top: -5rem;
-    height: 7.4rem;
+    display: inline-block;
+    overflow: hidden;
+/*    background-color: lightcyan;
+*/    width: 100%;
 }
 
-.my-name {
-    font-family: 'Sacramento', cursive;
-    background-color: tomato;
-    text-align: center;
-    color: white;
-    font-size: 6.5rem;
-    padding: 1rem;
-    font-weight: normal;
+    .my-name {
+        float: left;
+        margin: 1rem;
+        font-size: 4.5rem;
+        font-weight: normal;
+        font-family: "Sacramento", cursive;
+        color: turquoise;
 }
-
+    
+    
 nav {
-    font-family: 'Spinnaker', sans-serif;
-    background-color: white;
-    font: 1.25rem;
+    float: right;
+    position: fixed;
+    top: 1.5rem;
+    right: 0rem;
+    margin-right: 2rem;
     line-height: 3rem;
-    text-align: center;
-    position: relative;
-    top: -5.4rem;
-    width: 100%;
+    font-size: 1.25rem;
+    font-family: "Spinnaker", sans-serif;
 }
-
-    li {
-        display: inline-block;
-        text-decoration: none;
-        margin: 0rem 7rem;
-        color: tomato;
-    }
+        
+        li {
+            display: inline-block;
+            text-decoration: none;
+            margin: 0rem 1rem;
+            color: tomato;
+        }
 
 
 /*.mission-statement-image {
 	background-color: tomato;
+
     width: 75%;
     position: fixed;
     top: 119px;
@@ -53,57 +55,61 @@ nav {
     font-size: 2rem;
 }*/
 
-.mission-statement {
-    background-color: lightcyan;
-    position: relative;
-    top: 2.3rem;
-    margin: -5rem 0rem;
-}
-
-.mission-title {
-    font-family: 'Sacramento', cursive;
-    font-size: 4.5rem;
-    text-align: center;
-    font-weight: normal;
-    position: relative;
-    top: 5rem;
-}
-
-.mission-text {
-    font-family: 'Spinnaker', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    position: static;
-    top: 111px;
-    padding: 3rem 9rem;
-}
-footer {
-    width: 100%;
-    display: inline-block;
+.page-circle {
     background-color: tomato;
- }
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    font-family: "Spinnaker", sans-serif;
+    border: solid .5rem;
+    border-style: dashed;
+    margin: 28rem auto;
+    /* position: fixed; */
+}
 
-    .social-media {
-        text-align: center;
-        padding: 1rem;
-        position: relative;
-        top: 3rem;
+    .circle-photo {
+        border-radius: 50%;
+        position: fixed;
+        bottom: -81rem;
+        left: -3rem;
     }
 
-    .contact {
+    .page-title {
         text-align: center;
-        font-family: 'Sacramento', sans-serif;
-        font-size: 3rem;
+    /* position: fixed; */
+        width: 100%;
+        color: white;
+        font-size: 1.75rem;
+        bottom: 4rem;
+        left: 40rem;
+        font-size: 1.75rem;
+        color: white;
+        margin: 6rem auto;
+    }
+
+.mission-text {
+    text-align: center;
+    width: 50%;
+    position: fixed;
+    top: 15rem;
+    font-size: 1.5rem;
+    font-family: "Spinnaker", sans-serif;
+    margin: 0 25%;
+}
+
+.social-media {
+    position: fixed;
+    top: 8.25rem;
+}
+
+
+    .contact {
+        
     }
 
         .message {
-            position: relative;
-            top: -3rem;
-            height: 6rem;
-            border-radius: 10%;
-        }
+                    }
 
         .submit-button {
-            position: relative;
-            top: -3rem;
+            
         }

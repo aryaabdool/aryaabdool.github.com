@@ -5,46 +5,84 @@ font-family: 'Spinnaker', sans-serif;*/
 
 body {
     font-family: sans-serif;
+    overflow: hidden;
 }
 
 header {
-    width: 100%;
-    position: relative;
-    top: -5rem;
-    height: 7.4rem;
+    display: inline-block;
+    overflow: hidden;
+/*    background-color: lightcyan;
+*/    width: 100%;
 }
 
-.my-name {
-    font-family: 'Sacramento', cursive;
-    background-color: tomato;
-    text-align: center;
-    color: white;
-    font-size: 6.5rem;
-    padding: 1rem;
-    font-weight: normal;
+    .my-name {
+        float: left;
+        margin: 1rem;
+        font-size: 4.5rem;
+        font-weight: normal;
+        font-family: "Sacramento", cursive;
+        color: turquoise;
 }
-
+    
+    
 nav {
-    font-family: 'Spinnaker', sans-serif;
-    background-color: white;
-    font: 1.25rem;
+    float: right;
+    position: fixed;
+    top: 1.5rem;
+    right: 0rem;
+    margin-right: 2rem;
     line-height: 3rem;
-    text-align: center;
-    position: relative;
-    top: -5.4rem;
-    width: 100%;
+    font-size: 1.25rem;
+    font-family: "Spinnaker", sans-serif;
 }
+        
+        li {
+            display: inline-block;
+            text-decoration: none;
+            margin: 0rem 1rem;
+            color: tomato;
+        }
 
-    li {
-        display: inline-block;
-        text-decoration: none;
-        margin: 0rem 7rem;
-        color: tomato;
+    .main {
+        width: 90%;
+        text-align: center;
+        left: 4.25rem;
+        margin: 0 auto;
     }
 
-    
+        .column-1 {
+            width: 27%;
+            float: left;
+            background-color: lightcyan;
+            padding: 2%;
+            font-family: "Spinnaker", sans-serif;
+
+        }
+
+        .column-2 {
+            width: 27%;
+            float: left;
+            background-color: lightcyan;
+            margin-left: 3.5%;
+            padding: 2%;
+            font-family: "Spinnaker", sans-serif;
+
+        }
+
+        .column-3 {
+            width: 27%;
+            float: right;
+            background-color: lightcyan;
+            margin-right: 0rem;
+            padding: 2%;
+            font-family: "Spinnaker", sans-serif;
+
+        }
+
+
 /*.mission-statement-image {
-	background-color: tomato;
+    background-color: tomato;
+
     width: 75%;
     position: fixed;
     top: 119px;
@@ -53,42 +91,51 @@ nav {
     font-size: 2rem;
 }*/
 
-.cover-letter {
-    font-size: 1.5rem;
-    text-align: center;
-    position: static;
-    top: 352px;
-    width: 75%;
-	background-color: tomato;
+.page-circle {
+    background-color: tomato;
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    font-family: "Spinnaker", sans-serif;
+    border: solid .5rem;
+    border-style: dashed;
+    margin: 28rem auto;
+    /* position: fixed; */
 }
 
-footer {
-    width: 100%;
-    display: inline-block;
-    background-color: tomato;
- }
-
-    .social-media {
-        text-align: center;
-        padding: 1rem;
-        position: relative;
-        top: 3rem;
+    .circle-photo {
+        border-radius: 50%;
+        position: fixed;
+        bottom: -81rem;
+        left: -3rem;
     }
 
-    .contact {
+    .page-title {
         text-align: center;
-        font-family: 'Sacramento', sans-serif;
-        font-size: 3rem;
+    /* position: fixed; */
+        width: 100%;
+        color: white;
+        font-size: 1.75rem;
+        bottom: 4rem;
+        left: 40rem;
+        font-size: 1.75rem;
+        color: white;
+        margin: 6rem auto;
+    }
+
+.social-media {
+    position: fixed;
+    top: 8.25rem;
+}
+
+
+    .contact {
+        
     }
 
         .message {
-            position: relative;
-            top: -3rem;
-            height: 6rem;
-            border-radius: 10%;
-        }
+                    }
 
         .submit-button {
-            position: relative;
-            top: -3rem;
+            
         }
