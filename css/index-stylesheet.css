@@ -102,14 +102,7 @@ nav {
     top: 8.25rem;
 }
 
+/******RESPONSIVE DESIGN MEDIA QUERIES*****/
+@media (max-width: 320px) {
 
-    .contact {
-        
-    }
-
-        .message {
-                    }
-
-        .submit-button {
-            
-        }
+}
