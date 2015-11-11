@@ -5,38 +5,41 @@ font-family: 'Spinnaker', sans-serif;*/
 
 body {
     font-family: sans-serif;
-    overflow: hidden;
+/*    overflow: hidden;
+*/    background-image: url("http://www.wonderbackgrounds.com/background/cloud_2.gif");
 }
 
 header {
     display: inline-block;
     overflow: hidden;
-/*    background-color: lightcyan;
-*/    width: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    background-color: white;
+    z-index: 1;
 }
 
     .my-name {
-        float: left;
         margin: 1rem;
         font-size: 4.5rem;
         font-weight: normal;
         font-family: "Sacramento", cursive;
         color: turquoise;
-}
+    }
     
     
 nav {
-    float: right;
-    position: fixed;
     top: 1.5rem;
     right: 0rem;
     margin-right: 2rem;
     line-height: 3rem;
     font-size: 1.25rem;
     font-family: "Spinnaker", sans-serif;
+    position: fixed;
 }
-        
-        li {
+    
+         li {
             display: inline-block;
             text-decoration: none;
             margin: 0rem 1rem;
@@ -46,74 +49,183 @@ nav {
                 color: tomato;
             }
 
+            li:hover{
+                color: black;
+            }
 .main {
-    /* position: fixed; */
     text-align: center;
     width: 90%;
-    left: 4.25rem;
-    margin: 0 auto;
-    
+    margin: 200px auto 120px auto;
+    /*position: absolute;
+    left: 4.25rem;*/
+
 }
 
-    .section-title {
+    .education-image {
+        width: 250px;
+        height: 250px;
+        background-color: lightcyan; 
+        display: inline-block;
+        border-radius: 50%;
+        padding: 0 auto;
+        margin: 1rem;
+        font-family: "Sacramento", cursive;
+        font-size: 1.25rem;
+    }
+
+        .education-image:hover {
+            background: tomato;
+            color: white;
+        }
+
+    .experience-image {
+        width: 250px;
+        height: 250px;
+        background-color: lightcyan;
+        display: inline-block;
+        border-radius: 50%;
+        padding: 0 auto;
+        margin: 1rem;
+        font-family: "Sacramento", cursive;
+        font-size: 1.25rem;
+    }
+
+        .experience-image:hover {
+            background: tomato;
+            color: white;
+        }
+
+    .skills-image {
+        width: 250px;
+        height: 250px;
+        background-color: lightcyan;
+        display: inline-block;
+        border-radius: 50%;
+        padding: 0 auto;
+        margin: 1rem;
+        font-family: "Sacramento", cursive;
+        font-size: 1.25rem;
+    }
+
+        .skills-image:hover {
+            background-color: tomato;
+            color: white;
+        }
+
+    .interests-image {
+        width: 250px;
+        height: 250px;
+        background-color: lightcyan;
+        display: inline-block;
+        border-radius: 50%;
+        padding: 0 auto;
+        margin: 1rem;
+        font-family: "Sacramento", cursive;
+        font-size: 1.25rem;
+    }
+
+        .interests-image:hover {
+            background: tomato;
+            color: white;
+        }
+
+        .image-title {
+            position: relative;
+            top: 5.25rem;
+        }
+
+
+
+    #section-title {
         font-family: "Sacramento", cursive;
         font-weight: normal;
         font-size: 3rem;
         margin: 0rem;
         padding: 1rem 1.25rem 0rem 1.25rem;
+        display: none;
     }
 
-    .section-subtitle {
+    #section-subtitle {
         font-family: "Spinnaker", sans-serif;
         font-size: 1.25rem;
+        display: none;
     }
 
-    .section-info {
+    #section-info {
         font-family: "Spinnaker", sans-serif;
         font-size: 1rem;
         margin-top: 1rem;
+        display: none;
     }
    
-        .education {
+        /*.education-text {
             width: 20%;
             float: left;
-            background-color: lightcyan;
+            background-color: green;
             padding: 0% 1%;
         }
-
-        .experience {
+*/
+        .experience-text {
             width: 45%;
             float: left;
             background-color: lightcyan;
             margin-left: 4.5%;
             padding: 0% 1%;
+            display: none;
         }
 
-        .skills {
+        .skills-text {
             width: 20%;
             float: right;
             background-color: lightcyan;
             margin-right: 0rem;
             padding: 0% 1%;
+            display: none;
         }
 
-           .rows {
+        .interests-text {
+            width: 20%;
+            float: right;
+            background-color: lightcyan;
+            margin-right: 0rem;
+            padding: 0% 1%;
+            display: none;
+        }
+
+                .rows {
                 overflow: hidden;
                 display: inline-block;
                 text-decoration: none;
-           }
+                }
 
                 .row-1 {
                     float: left;
                     width: 50%;
                     padding-left: 0rem;
+                    font-family: "Spinnaker", sans-serif;
+                    font-size: 1rem;
                 }
 
                 .row-2 {
                     float: right;
                     width: 50%;
                     padding-left: 0rem;
+                    font-family: "Spinnaker", sans-serif;
+                    font-size: 1rem;
                 }
+
+                    .skill-list {
+                        margin: .25rem 0;
+                    }
+
+        #interest-list {
+            float: right;
+            width: 50%;
+            padding-left: 0rem;
+            font-family: "Spinnaker", sans-serif;
+            font-size: 1rem;
+            display: none;
+        }
 
                     
                 
@@ -128,7 +240,31 @@ nav {
     font-size: 2rem;
 }*/
 
-.page-circle {
+.circle {
+  position: absolute;
+  top: 39rem;
+  display: inline-block;
+  width: 90%;
+  height: 0;
+  margin: 0 5%;
+  padding: 50% 0;
+  border-radius: 50%;
+    
+  /* Just making it pretty */
+  @shadow: rgba(0, 0, 0, .1);
+  @shadow-length: 4px;
+  -webkit-box-shadow: 0 @shadow-length 0 0 @shadow;
+          box-shadow: 0 @shadow-length 0 0 @shadow;
+  text-shadow: 0 @shadow-length 0 @shadow;
+  background: tomato;
+  color: white;
+  border: 10px solid dashed;
+  font-family: Helvetica, Arial Black, sans;
+  font-size: 48px;
+  text-align: center;
+}
+
+/*.page-circle {
     background-color: tomato;
     width: 1500px;
     height: 1500px;
@@ -137,7 +273,6 @@ nav {
     border: solid .5rem;
     border-style: dashed;
     margin: 28rem auto;
-    /* position: fixed; */
 }
 
     .circle-photo {
@@ -149,7 +284,6 @@ nav {
 
     .page-title {
         text-align: center;
-    /* position: fixed; */
         width: 100%;
         color: white;
         font-size: 1.75rem;
@@ -159,7 +293,7 @@ nav {
         color: white;
         margin: 6rem auto;
     }
-
+*/
 .mission-text {
     text-align: center;
     width: 50%;
@@ -176,149 +310,4 @@ nav {
 }
 
 
-/******RESPONSIVE DESIGN MEDIA QUERIES*****/
-@media (max-width: 360px) {
-    
-body {
-    font-family: sans-serif;
-    overflow: scroll;
-}
 
-header {
-    background-color: white;
-}
-
-    .my-name {
-        font-size: 3.75rem;
-        font-weight: normal;
-        font-family: "Sacramento", cursive;
-        color: turquoise;
-        position: fixed;
-        top: -1rem;
-        left: -1rem;
-        background-color: white;
-        width: 100%;
-        padding: 1rem;
-    }
-            
-    nav {
-        float: right;
-        position: fixed;
-        top: 1.5rem;
-        right: 0rem;
-        margin-right: 2rem;
-        line-height: 3rem;
-        font-size: 1.25rem;
-        font-family: "Spinnaker", sans-serif;
-        display: none;
-    }
-
-    .hamburger span {
-          background-color: black;
-            display: block;
-            border-radius: 0.33333em;
-            height: 0.33333em;
-            margin: 0.33333em 0;
-            width: 2em;
-            z-index: 1;
-            position: fixed;
-            top: 7rem;
-    }
-    
-            
-            li {
-                text-decoration: none;
-            }
-
-                .main-nav {
-                    color: tomato;
-                }
-
-.main {
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-}
-
-    .education {
-        width: 98%;
-        background-color: lightcyan;
-        margin: 125px auto 0 auto;
-    }
-
-    .experience {
-        width: 98%;
-        background-color: lightcyan;
-        margin: 20px auto 0 auto;
-        padding: 0% 1%;
-    }
-
-    .skills {
-        width: 98%;
-        background-color: lightcyan;
-        margin: 20px auto 0 auto;
-        padding: 0% 1%;
-    }
-
-        .rows {
-            overflow: hidden;
-            display: inline-block;
-            text-decoration: none;
-        }
-
-        .row-1 {
-            float: left;
-            width: 50%;
-            padding-left: 0rem;
-        }
-
-        .row-2 {
-            float: right;
-            width: 50%;
-            padding-left: 0rem;
-        }
-
-.page-circle {
-    background-color: tomato;
-    width: 1500px;
-    height: 1500px;
-    border-radius: 50%;
-    font-family: "Spinnaker", sans-serif;
-    border: solid .5rem;
-    border-style: dashed;
-    margin: 28rem auto;
-    /* position: fixed; */
-    display: none;
-}
-
-    .circle-photo {
-        border-radius: 50%;
-        position: fixed;
-        bottom: -81rem;
-        left: -3rem;
-        display: none;
-    }
-
-    .page-title {
-        text-align: center;
-    /* position: fixed; */
-        width: 100%;
-        color: white;
-        font-size: 1.75rem;
-        bottom: 4rem;
-        left: 40rem;
-        font-size: 1.75rem;
-        color: white;
-        margin: 6rem auto;
-        display: none;
-    }
-
-.mission-text {
-    text-align: center;
-    width: 50%;
-    position: fixed;
-    top: 15rem;
-    left: 22rem;
-    font-size: 1.5rem;
-    font-family: "Spinnaker", sans-serif;
-}

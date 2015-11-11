@@ -55,7 +55,29 @@ nav {
     font-size: 2rem;
 }*/
 
-.page-circle {
+.circle {
+  position: relative;
+  top: 18rem;
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  padding: 50% 0;
+  border-radius: 50%;
+    
+  /* Just making it pretty */
+  @shadow: rgba(0, 0, 0, .1);
+  @shadow-length: 4px;
+  -webkit-box-shadow: 0 @shadow-length 0 0 @shadow;
+          box-shadow: 0 @shadow-length 0 0 @shadow;
+  text-shadow: 0 @shadow-length 0 @shadow;
+  background: #38a9e4;
+  color: white;
+  font-family: Helvetica, Arial Black, sans;
+  font-size: 48px;
+  text-align: center;
+}
+
+/*.page-circle {
     background-color: tomato;
     width: 1500px;
     height: 1500px;
@@ -64,7 +86,6 @@ nav {
     border: solid .5rem;
     border-style: dashed;
     margin: 28rem auto;
-    /* position: fixed; */
 }
 
     .circle-photo {
@@ -76,7 +97,6 @@ nav {
 
     .page-title {
         text-align: center;
-    /* position: fixed; */
         width: 100%;
         color: white;
         font-size: 1.75rem;
@@ -85,7 +105,7 @@ nav {
         font-size: 1.75rem;
         color: white;
         margin: 6rem auto;
-    }
+    }*/
 
 .mission-text {
     text-align: center;
