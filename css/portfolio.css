@@ -1,0 +1,33 @@
+.portfolio-section {
+	background-color: white;
+    width: 100%;
+    padding-top: 10rem;
+    position: fixed;
+    top: 0;
+    overflow: scroll;
+    
+}
+
+.portfolio-nav {
+	text-align: center;
+}
+
+.btn-default {
+    width: 30rem;
+    height: 6rem;
+    font-family: Quicksand;
+    font-weight: bolder;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+div.portfolio-section .designingamessage-main {
+    background-color: light pink;
+    padding: 0 5rem;
+    overflow: scroll;
+ }
+
+ p.body {
+    font-family: Quicksand;
+ }

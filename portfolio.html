@@ -1,48 +1,102 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8"/> 
-	<title>Porfolio</title>
-		<!-- <link rel="stylesheet" type="text/css" href="bio-stylesheet.css">  -->
-	<link rel="stylesheet" type="text/css" href="css/portfolio-stylesheet.css">
-		<link href='https://fonts.googleapis.com/css?family=Sacramento|Spinnaker' rel='stylesheet' type='text/css'>		
-		<link rel="stylesheet" type="text/css" href="css/responsive.css">
-		<script type="text/javascript"></script>
-	</head>
-	<body>
-		<header> 
-			<h1 class="my-name">Arya Abdool</h1>
-			<nav>
-				<ul class="main-nav">
-					<a href="index.html"><li class="main-nav" id="mission">Home</li></a>
-					<a href="coverletter.html"><li class="main-nav" id="coverletter">Cover Letter</li></a>
-					<a href="resume.html"><li class="main-nav" id="resume">Resume</li></a>
-					<a href="portfolio.html"><li class="main-nav" id="portfolio">Portfolio</li></a>
-				</ul>
-			</nav>
-		</header>
-			<div class="main">
-				<p class="column-1">Portfolio Piece 1</p>
-				<p class="column-2">Portfolio Piece 2</p>
-				<p class="column-3">Portfolio Piece 3</p>
-			</div>
-			<!-- <div class="page-circle"><h2 class="page-title">PORTFOLIO</h2></div> -->
-			<div class="circle">
-        		ICON
-			</div> 
-			<footer> 
-				<section class="social-media">
-					<!-- <a class="twitter-icon" href="https://twitter.com/hellohowarya" target="_blank"><img src="images/twitter.png" ></a>
-					<a class="instagram-icon" href="https://instagram.com/hellohowarya/" target="_blank"> <img src="images/instagram.png"></a> -->
-					<a class="linkedin-icon" href="https://ca.linkedin.com/pub/arya-abdool/66/a96/961" target="_blank"> <img src="images/linkedin.png"></a>
-				</section>
-				<!-- <section class="contact">
-					<form>
-						<p>Send me an email</p>
-						<input class="message" type="text" name="email-message">
-						<input class="submit-button" type="submit" name="send-email" value="Send Email">
-					</form>
-				</section> -->
-			</footer>
+	<meta charset="UTF-8">
+	<title>Arya's Bridgeable Application</title>
+
+	<!-- Stylesheets go here -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Merriweather|Quicksand' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+</head>
+<body>
+	<!-- Navigation -->
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand active" href="index.html">Hi, I'm Arya</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li><a href="resume.html">ME</a></li>
+		      <li><a href="coverletter.html">COVER LETTER</a></li> 
+		      <li><a href="portfolio.html">PORTFOLIO</a></li> 
+		        <li><a href="#">DOWNLOAD PDF</a></li>
+		    </ul>
+		  </div>
+		</nav>
+
+		<!-- Use a column on the left 1/4 os page-->
+		<!-- View as 3/4 of the page -->
+	<section class="portfolio-main">
+		<div class="portfolio-section breakpoverty-main">
+			<section class="portfolio-nav">
+				<button class="btn btn-default" type="submit" value="breakpoverty-button">Break Poverty Hackathon</button>
+				<button class="btn btn-default" type="submit" value="musician-button">Becoming a Musician</button>
+				<button class="btn btn-default"type="submit" value="message-button">Designing a Message</button>
+			</section>
+			<h3 class="portfolio-title">Break Poverty Hackathon</h3>
+			<p class="body">Since 2007, countless Kenyans have been using their mobile phones to deposit, withdraw, and transfer money, as well as pay for goods and services. In 2014, North Americans were impressed with the release of Apple Pay.</p>
+			<p class="subtitle">A pool of potential ideas</p>
+			<p class="body">With this premise, our team of 6 was challenged to use the power of SMS to address issues surrounding health, education, and agriculture in rural Kenya. We interviewed as many Free the Children staff (who’d be implementing the solution) as we could at the time, and conducted secondary research around the issues in Kenya to ideate a pool of potential solutions:</p>
+			<ul class="stick-notes">
+				<li class="sticky-note">Food waste redirections from farmers to schools</li>
+				<li class="sticky-note">Girls education in agricultural business, to empower the women of the future</li>
+				<li class="sticky-note">A targeted health information network, to maximize the reach of health infrastructure</li>
+				<li class="sticky-note">Agricultural equipment sharing, to increase crop production by giving farmers access to the right tools</li>
+			</ul>
+			<p class="subtitle">Choosing an idea to run with</p>
+			<p class="body">With 48 hours to produce a solution, we had to prioritize our ideas and choose one. Despite the fact that a majority of our ideas fell under agriculture, we chose to prioritize the health sector. Our goal was to create something that would have high impact and that Free the Children could realistically implement. From our stakeholder interviews, the idea that health clinics were at the center of the communities resounded with us –and health was something applicable to everyone. </p>
+			<p class="subtitle">Refining the idea</p>
+			<p class="body">We decided to answer the question:</p>
+			<p class="italics-question">How might we improve access to health information in rural Kenya by facilitating a SMS network?</p>
+			<p class="body">To really frame our problem and pinpoint the solution we were going to “hack” together, we revisited our initial notes from our interviews and secondary research. Throughout the early stages of the challenge, we also consulted Kenyan hackathon participants in Nairobi, who would have a better understanding of the context. After piecing together bits and pieces of information, we gained valuable insights that help guide the features of our SMS network.
+			</p>
+			<ul class="sicky-notes">
+				<li class="sticky-note"><p class="sticky-note title">Ease & Efficiency</p>Clinics we over-burdened with responsibility and information was distributed manually via travelling outreach workers</li>
+				<li class="sticky-note"><p class="sticky-note title">Timely Response</p>Individuals needed timely and situationally-relevant health information and resources; distance was a huge barrier to access</li>
+				<li class="sticky-note"><p class="sticky-note title">Early Prevention & Control</p>Prevention and control information for injuries and disease outbreaks were found to facilitate the most successful health outcomes</li>
+			</ul>
+			<p class="body">After our developer team created the initial prototype, I recruited some event volunteers to test for basic usability and ease of user onboarding. From this, we learned that even for advanced mobile phone users, onboarding was difficult to navigate and too lengthy for situations where immediate access might be necessary.</p>
+			<p class="subtitle">The final product</p>
+			<p class="body">An SMS-based information broadcasting network to connect community members to timely health information when they have limited access to health professionals. Individuals have greater independence in their care management, and are better equipped to control and prevent disease, and address emergency medical situations. Clinic staff, our other end users, can more efficiently deliver relevant information to the masses. In the end, information gaps are filled, regardless of distance and manpower.  </p>
+		</div>
+		<div class="portfolio-section beingamusician-main">
+			<section class="portfolio-nav">
+				<button class="btn btn-default" type="submit" value="breakpoverty-button">Break Poverty Hackathon</button>
+				<button class="btn btn-default" type="submit" value="musician-button">Becoming a Musician</button>
+				<button class="btn btn-default"type="submit" value="message-button">Designing a Message</button>
+			</section>
+
+			<h3>Being a Musician</h3>
+		</div>
+		<div class="portfolio-section designingamessage-main">
+			<section class="portfolio-nav">
+				<button class="btn btn-default" type="submit" value="breakpoverty-button">Break Poverty Hackathon</button>
+				<button class="btn btn-default" type="submit" value="musician-button">Becoming a Musician</button>
+				<button class="btn btn-default"type="submit" value="message-button">Designing a Message</button>
+			</section>
+
+			<h3>Designing a Message</h3>
+			<p class="body">Thoughtful gifts are often valued more than those that are expensive because of the intention and understanding behind them. Similarly, human-centered design gives people the power to understand and frame challenges in a way that can create thoughtful, meaningful results. It is a means of using methods that don’t scale, to generate ideas and solutions that do. I am writing to express my interest in the Design Strategy position for the 2016 Designership program to do just that.</p>
+			<p class="body">I’ve had a taste of experience in human-centered design, after completing IDEO’s Design Kit course and applying principles to my work and independent projects. Throughout my professional and educational career, I’ve accumulated a breadth of diverse skill sets, from secondary research, rapid prototyping, and computer programming, to community outreach, peer facilitation, and event planning.  Although my experiences are fragmented, as a whole, they have moulded a “prototype” of myself that has improved with every success and failure. I hope to use the Designership program as an opportunity to unite these experiences to further validate and strengthen my “prototype.” Ultimately, I hope to build a career in design research and strategy to tackle challenges in resource-limited settings, where design thinking is of the utmost importance given the constraints.</p>
+			<p class="body">From my time working in a small start-up environment, I aim to bring to the Designership team flexibility, resilience, and an outcome-driven mindset. To a service design-centric firm like Bridgeable, I bring a passion for improving health services and infrastructure from my education and involvement in mental and global health. If given the opportunity, I aim to contribute to my team in a capacity that not only exercises my strengths, but more importantly, in one that complements the needs and dynamics of our collaborative effort. I hope to have this opportunity to work with the Designership team at Bridgeable to take part in thoughtful design. Thank you for your time, and I hope to hear from you soon.</p>
+			<h3>Break Poverty Hackathon</h3>
+		</div>
+	</section>
+
+	<footer>
+		<a class="download-button" href="#"><img class="download-icon" src="#"></a> 
+		<a class="contact" href="#"></a>
+
+	</footer>
+	<script type="text/javascript" src="scripts/main.js"></script>
+	<script type="text/javascript" scr="vendor/bootstrap-3.3.6-dist"></script>
+	<!-- // <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+<!-- scripts -->
+	<script type="text/javascript" src="scripts/main.js"></script>
+	<script type="text/javascript" scr="vendor/bootstrap-3.3.6-dist"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="vendor/jquery-1.12.0.min (1).js"></script>
 </body>
 </html>

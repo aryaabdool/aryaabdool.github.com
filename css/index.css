@@ -1,0 +1,17 @@
+/*Landing page styles*/
+img {
+    vertical-align: middle;
+    position: fixed;
+    bottom: -5rem;
+    left: 15rem;
+}
+
+h3 {
+	position: fixed;
+    top: 40%;
+    left: 50%;
+    font-family: Quicksand;
+    font-size: 5rem;
+    line-height: 5rem;
+    width: 70rem;
+}

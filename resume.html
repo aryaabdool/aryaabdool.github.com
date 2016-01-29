@@ -1,141 +1,236 @@
-<!DOCTYPE html>
+<!DOCTYPE <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8"/> 
-		<title>Resume</title>
-		<link rel="stylesheet" type="text/css" href="css/resume-stylesheet.css">
-		<link href='https://fonts.googleapis.com/css?family=Sacramento|Spinnaker' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="css/responsive.css">		
-		
-	
-	</head>
-	<body>
-		<header> 
-			<h2 class="my-name">Arya Abdool</h1>
-			<div class="hamburger">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-			<nav>
-				<ul class="main-nav">
-					<a href="index.html"><li class="main-nav" id="mission">Home</li></a>
-					<a href="coverletter.html"><li class="main-nav" id="coverletter">Cover Letter</li></a>
-					<a href="resume.html"><li class="main-nav" id="resume">Resume</li></a>
-					<a href="portfolio.html"><li class="main-nav" id="portfolio">Portfolio</li></a>
-				</ul>
-			</nav>
-		</header>
-		<div class="main">
-			
-		<ul class="resume-nav">
-			<li id="resume-item"><div class="education-image">
-				<h2 class="image-title">Education</h2>
-			</div>
-			</li>
-			<li id="resume-item">
-				<div class="experience-image">
-				<h2 class="image-title">Experience</h2>
-			</div>
-			</li>
-			<li id="resume-item">
-				<div class="skills-image">
-			 	<h2 class="image-title">Skills</h2>
-			</div>
-			</li>
-			<li id="resume-item">
-				<div class="interests-image">
-				<h2 class="image-title">Interests</h2>
-			</div>
-			</li>
-		</ul>
+<head>
+	<meta charset="UTF-8">
+	<title>Arya's Bridgeable Application</title>
 
-					
-			<div class="education-text">
-				<h2 class="education-text" id="section-title">Education</h2>
-					<p class="education-text" id="section-subtitle">University of Toronto</p>
-						<p class="education-text" id="section-info">HBSc, Neuroscience Major, Buddhism Psychology Minor, and Physiology Minor </p>
-					<p class="education-text" id="section-subtitle">Acumen+IDEO</p>
-						<p class="education-text" id="section-info"> Certificate of Completion for Design Kit: The Course for Human Centered Design</p>
-					<p class="education-text" id="section-subtitle">Bitmaker Labs</p>
-						<p class="education-text" id="section-info"> Certificate of Completion for Front-End Web Development</p>
+	<!-- Stylesheets go here -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Merriweather|Quicksand' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/resume.css">
+</head>
+<body>
+	<!-- Navigation -->
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand active" href="index.html">Hi, I'm Arya</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li><a href="resume.html">ME</a></li>
+		      <li><a href="coverletter.html">COVER LETTER</a></li> 
+		      <li><a href="portfolio.html">PORTFOLIO</a></li> 
+		      <li><a href="#">DOWNLOAD PDF</a></li>
+		    </ul>
+		  </div>
+		</nav>
+	
+
+	<img class="placeholder-proto" src="images/aryagif-2.png" width="500px" height="500px">
+
+	<section class="resume resume-main">
+		<!-- Resume interests go here -->
+		<div class="interests-main">
+			<section class="resume-nav">
+				<button class="btn btn-default experience-button" type="submit" value="experience-button">EXPERIENCE</button>
+				<button class="btn btn-default education-button" type="submit" value="education-button">EDUCATION</button>
+				<button class="btn btn-default interests-button"type="submit" value="interests-button">INTERESTS</button>
+			</section>
+			<!-- <h3 class="resume-sectiontitle">Interests</h3> -->
+			<ul >
+				<li class="interest-list">Dessert Making</li>
+				<li class="interest-list">Biking</li>
+				<li class="interest-list">Travel</li>
+				<li class="interest-list">Humans of New York</li>
+				<li class="interest-list">Photography</li>
+				<li class="interest-list">Board Games</li>
+				<li class="interest-list">TV Comedy</li>
+		<!-- 		<li class="interest-list">Global Health</li> -->
+			</ul>
+		</div>
+
+		<!-- Resume Education Goes here -->
+		<div class="education-main">
+			<section class="resume-nav">
+				<button class="btn btn-default experience-button" type="submit" value="experience-button">EXPERIENCE</button>
+				<button class="btn btn-default education-button" type="submit" value="education-button">EDUCATION</button>
+				<button class="btn btn-default interests-button"type="submit" value="interests-button">INTERESTS</button>
+			</section>
+<!-- 			<h3 class="resume-sectiontitle">Education</h3>
+ -->		<div class="education-school">
+				<p class="time">Sep 2010 to Jun 2015</p>
+				<p class="company">University of Toronto, St. George</p>	
+				<p class="location">Toronto, ON</p>
+				<p class="position">Honours Bachelors of Science</p>
+				<ul class="job-details">
+					<li>Neuroscience Major</li>
+					<li>Physiology Minor</li>
+					<li>Buddhism, Psychology & Mental Health Minor</li>
+				</ul>
+				<p>Related Skills</p>
+				<ul class="related-skills">
+					<li>Secondary Research</li>
+					<li>Literature Review</li>
+					<li>Community Outreach</li>						
+					<li>Team Leadership & Collaboration</li>
+				</ul>
 			</div>
-			
-			<div class="experience-text">
-				<h2 class="section-title">Experience</h2>
-					<p class="section-subtitle">Experience 1</p>
-						<p class="section-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
-					<p class="section-subtitle">Experience 2</p>
-						<p class="section-info"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-					<p class="section-subtitle">Experience 3</p>
-						<p class="section-info"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			<div class="education-school">
+				<p class="time">Aug 2015 to Nov 2015</p>
+				<p class="company">Bitmaker Labs</p>	
+				<p class="location">Toronto, ON</p>
+				<p class="position">Certificate of Completion</p>
+				<ul class="job-details">
+					<li>Part-Time Course in Front End Development</li>
+				</ul>
+				<p>Related Skills</p>
+				<ul class="related-skills">
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>Javascript</li>						
+					<li>jQuery</li>
+					<li>Bootstrap</li>
+					<li>Sass</li>
+					<li>Git/GitHub</li>
+				</ul>
 			</div>
-			
-			<div class="skills-text">
-				<h2 class="section-title">Skills</h2>
-				<p class="rows">
-					<ul class="row-1">
-						<li class="skill-list">Literature Review</li>
-						<li class="skill-list">User Interviewing</li>
-						<li class="skill-list">Stakeholder Mapping</li>
-						<li class="skill-list">Agile Methodology</li>
-						<li class="skill-list">Rapid Prototyping</li>
-						<li class="skill-list">Community Outreach</li>
-												
-					</ul>
-					<ul class="row-2">
-						<li class="skill-list">Educational Outreach</li>
-						<li class="skill-list">Event Planning</li>
-						<li class="skill-list">HTML5</li>
-						<li class="skill-list">CSS3</li>
-						<li class="skill-list">Javascript</li>
-						<li class="skill-list">JQuery</li>
-						<li class="skill-list">Bootstrap</li>
-						<li class="skill-list">Sass</li>
-						<li class="skill-list">Git/GitHub</li>
-						<li class="skill-list">Responsive Design</li>
-						<li class="skill-list">Photoshop CS6</li>
-					</ul>
-				</p>
+			<div class="education-school">
+				<p class="time">Jan 2015 to Apr 2015</p>
+				<p class="company">Acumen+IDEO</p>		
+				<p class="location">Toronto, ON</p>
+				<p class="position">Certificate of Completion</p>
+				<ul class="job-details">
+					<li>Design Kit: The Course for Human Centered Design</li>
+				</ul>
+				<p>Related Skills</p>
+				<ul class="related-skills">
+					<li>Human Centered Design</li>
+					<li>Secondary Research</li>
+					<li>Rapid Prototyping</li>
+					<li>Team Leadership & Collaboration</li>
+					<li>Community Outreach</li>
+					<li>Peer Facilitation</li>
+				</ul>
 			</div>
-			
-			<div class="interests-text">
-				<h2 class="section-title">Interests</h2>
-					<p class="section-info">
-						<ul class="interests">
-							<li id="interest-list">Dessert Experimenting</li>
-							<li id="interest-list">TV Comedy & Period Dramas</li>
-							<li id="interest-list">Biking</li>
-							<li id="interest-list">Photojournalism</li>
-							<li id="interest-list">Travel</li>
-							<li id="interest-list">Studio Ghibli</li>
-							<li id="interest-list">Crafting</li>
-							<li id="interest-list">Coding</li>
-						</ul>
-					</p>	
-			</div>
-		</div>	
-		</section>	
-		
-			<!-- <div class="page-circle"><h2 class="page-title">RESUME</h2></div> -->
-			<div class="circle">
-				<form>
-					
-				</form>
-			</div>
-			
-			<footer> 
-				<section class="social-media">
-					<!-- <a class="twitter-icon" href="https://twitter.com/hellohowarya" target="_blank"><img src="images/twitter.png" ></a>
-					<a class="instagram-icon" href="https://instagram.com/hellohowarya/" target="_blank"> <img src="images/instagram.png"></a> -->
-					<a class="linkedin-icon" href="https://ca.linkedin.com/pub/arya-abdool/66/a96/961" target="_blank"> <img src="images/linkedin.png"></a>
+		</div>
+
+		<!-- Resume experience here -->
+		<div class="experience-main">
+				<section class="resume-nav">
+					<button class="btn btn-default experience-button" type="submit" value="experience-button">EXPERIENCE</button>
+					<button class="btn btn-default education-button" type="submit" value="education-button">EDUCATION</button>
+					<button class="btn btn-default interests-button"type="submit" value="interests-button">INTERESTS</button>
 				</section>
-		
-				</div>
-			
-			</footer>
-			<!--INSERT JS & JQUERY HERE  -->
-			<script src="vendor/jquery/jquery-2.1.4.min.js"></script>
-			<script type="text/javascript" src="js/resume.js"></script>
-	</body>
+<!-- 			<h3 class="resume-sectiontitle">Experience</h3>
+ -->			<div class="job">
+				<p class="time">Sep 2014 to Present</p>
+				<p class="company">MultiMension Incorporated</p>		
+				<p class="location">Toronto, ON</p>
+				<p class="position">Full-Time, Part-Time Research & Development</p>
+				<ul class="job-details">
+					<li>Recruited potential users, conducted interviews and co-led a focus group to better scope the problem of women’s financial literacy. Used research findings to create personas to communicate users’ needs to team.</li>
+					<li>Produced a secondary research analysis report that aided in the company’s finalist rank in the Communitech Women Entrepreneurs Bootcamp, winning a $5,000 cash prize.</li>
+					<li>Co-created and validated a paper prototype for a job-matching tool for individuals with developmental disability and their potential employers.</li>
+				</ul>
+				<p class="related-skills">Related Skills</p>
+				<ul class="related-skills">
+					<li>Secondary Research</li>
+					<li>Literature Review</li>
+					<li>Agile Project Development</li>
+					<li>Human Centered Design</li>
+					<li>Community Outreach</li>
+					<li>Rapid Prototyping</li>
+					<li>Peer Facilitation</li>
+					<li>Team Leadership & Collaboration</li>
+				</ul>
+			</div>
+			<div class="job">
+				<p class="time">Nov 2015</p>
+				<p class="company">Break Poverty Hackathon</p>
+				<p class="location">Toronto, ON</p>
+				<p class="position">Team Member: Researcher</p>
+				<ul class="job-details">
+					<li>Conducted secondary research around information inaccessibility in rural Kenya, ideated possible mobile SMS solutions for information retrieval, and created use cases for the final solution – a health information broadcasting network.</li>
+					<li>User-tested the ease of onboarding of the solution, and drove improvements to make the process simpler, as well as to make remote-subscription to the SMS service possible for end-users.</li>
+					<li>Created system map to visualize how end-users would be onboarded, and how our solutions would be navigated through.</li>
+				</ul>
+				<p class="related-skills">Related Skills</p>
+				<ul class="related-skills">
+					<li>Secondary Research</li>
+					<li>Human Centered Design</li>
+					<li>Rapid Prototyping</li>
+					<li>Team Leadership & Collaboration</li>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>jQuery</li>
+				</ul>
+			</div>
+			<div class="job">
+				<p class="time">Nov 2014</p>
+				<p class="company">Toronto Thinks Case Competition</p>
+				<p class="location">Toronto, ON</p>
+				<p class="position">Team Competitor</p>
+				<ul class="job-details">
+					<li>Conducted secondary research and a stakeholder analysis to propose a community-based intervention to alleviate maternal mortality in rural Afghanistan in light of geographic, cultural, and political limitations.</li>
+					<li>Produced a simplified Gantt chart to project a timeline and milestones, and created a plan for impact assessment after project implementation.</li>			
+				</ul>
+				<p class="related-skills">Related Skills</p>
+				<ul class="related-skills">
+					<li>Secondary Research</li>
+					<li>Team Leadership & Collaboration</li>
+				</ul>
+			</div>
+			<div class="job">
+				<p class="time">Sep 2011 to Apr 2015</p>
+				<p class="company">UofT West Indian Student Association</p>
+				<p class="location">Toronto, ON</p>
+				<p class="position">President, Community Outreach Director</p>
+				<ul class="job-details">
+					<li>Created a partnership with other student groups and Toronto Caribbean community leaders, which resulted in $1,500 in grant funds and 40 donated Caribana costumes, respectively, for the club’s first ever Caribbean culture and fashion show.</li>		
+				</ul>
+				<p class="related-skills">Related Skills</p>
+				<ul class="related-skills">					
+					<li>Team Leadership & Collaboration</li>
+					<li>Community Outreach</li>
+					<li>Event Planning</li>
+				</ul>
+			</div>
+			<div class="job">
+				<p class="time">Feb 2014, Feb 2015</p>
+				<p class="company">New College Student Voice Project </p>
+				<p class="location">Toronto, ON</p>
+				<p class="position">Peer Facilitator, Participant</p>
+				<ul class="job-details">
+					<li>Facilitated open discussion and activities with participating students to demystify the stigma around mental health, particularly in a university setting, and to foster a safe community for those experiencing mental health issues on the University of Toronto campus.</li>		
+				</ul>
+				<p class="related-skills">Related Skills</p>
+				<ul class="related-skills">					
+					<li>Team Leadership & Collaboration</li>
+					<li>Community Outreach</li>
+					<li>Educational Outreach</li>
+					<li>Peer Facilitation</li>
+				</ul>
+			</div>
+		</div>
+	
+
+
+
+	</section>
+
+	<footer>
+		<a class="download-button" href="#"><img class="download-icon" src="#"></a> 
+		<a class="contact" href="#"></a>
+
+	</footer>
+	<script type="text/javascript" src="scripts/main.js"></script>
+	<script type="text/javascript" scr="vendor/bootstrap-3.3.6-dist"></script>
+	<!-- // <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+<!-- scripts -->
+	<script type="text/javascript" src="scripts/resume.js"></script>
+	<script type="text/javascript" scr="vendor/bootstrap-3.3.6-dist"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="vendor/jquery-1.12.0.min.js"></script>
+</body>
 </html>

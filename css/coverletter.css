@@ -1,0 +1,25 @@
+.coverletter-main {
+	padding: 5rem 35rem;
+}
+
+.greeting {
+	font-family: 'Merriweather';
+    font-size: 3rem;
+    padding: 6rem 0;
+    color: #fdd12d;
+}
+
+.body {
+	font-family: 'Quicksand';
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 2.25rem;
+    padding: .75rem 0;
+    line-height: 3rem;
+}
+
+p.signature {
+	font-family: 'Homemade Apple';
+	font-size: 4.75rem;
+}
+
