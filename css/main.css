@@ -40,6 +40,7 @@ nav.navbar.navbar-inverse {
 
 ul.nav.navbar-nav>li>a {
 	color: #c3eacd;
+	font-family: Merriweather;
 }
 	ul.nav.navbar-nav>li>a:hover {
 		color: #fdd12d;
