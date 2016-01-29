@@ -1,15 +1,21 @@
-// portfolio animations
 $(document).ready(function(){
 
-	$('.experience-button').on('click', function(){
-		$('.experience-main').fadeIn();
-	})
-	$('.education-button').on('click', function(){
-		$('.education-main').fadeIn();
-	})
-	$('.interests-button').on('click', function(){
-		$('.interests-main').fadeIn();
-	})
-// End of jQuery
+   $(".education-button").on("click", function(){
+   		$(".experience-main").hide();
+   		$(".interests-main").hide();
+   		$('.education-main').show();
+   });
+
+   $(".experience-button").on("click", function(){
+   		$(".education-main").hide();
+   		$(".interests-main").hide();
+   		$(".experience-main").show();
+   });
+
+   $(".interests-button").on("click", function(){
+   		$(".education-main").hide();
+   		$(".experience-main").hide();
+   		$(".interests-main").show();
+   });
+
 });
- 

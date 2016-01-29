@@ -25,7 +25,8 @@ a.navbar-brand.active {
 	font-family: Merriweather;
     font-size: 5rem;
     font-weight: 700;
-    color: #C4EACD;;
+    color: #C4EACD;
+    padding-top: 2rem;
 }
 	a.navbar-brand.active:hover {
 		color: #fdd12d;
@@ -42,12 +43,14 @@ ul.nav.navbar-nav>li>a {
 	color: #c3eacd;
 	font-family: Merriweather;
 }
+	
 	ul.nav.navbar-nav>li>a:hover {
 		color: #fdd12d;
 		border-bottom: solid 2px; 
 	}	
 
-	ul.nav.navbar-nav>li>a:active {
+
+	.nav.navbar-nav>li>a:active {
 		color: #fdd12d;
 		border-bottom: solid 2px; 
 	}

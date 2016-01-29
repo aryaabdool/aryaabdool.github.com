@@ -2,14 +2,24 @@
 	background-color: white;
     width: 100%;
     padding-top: 10rem;
+    padding-bottom: 10rem;
     position: fixed;
     top: 0;
     overflow: scroll;
     
 }
 
+h3.portfolio-title {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 4rem;
+    padding: 7rem 0;
+    color: #fdd12d;
+}
+
 .portfolio-nav {
 	text-align: center;
+    z-index: 999;
 }
 
 .btn-default {
@@ -22,12 +32,83 @@
     padding: 1rem 2rem;
 }
 
-div.portfolio-section .designingamessage-main {
-    background-color: light pink;
-    padding: 0 5rem;
-    overflow: scroll;
- }
-
  p.body {
     font-family: Quicksand;
+    padding-right: 25rem;
+    padding-left: 25rem;
+    font-size: 2rem;
+ }
+
+ p.subtitle {
+    font-family: Merriweather;
+   text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2.25rem;
+    text-align: center;
+ }
+
+ .breakpoverty-main{
+    position: absolute;
+    background-color: white;
+    display: none;
+ }
+
+ ul.sticky-notes {
+/*    display: inline-flex;
+*/   /* padding-right: 25rem;
+    padding-left: 25rem;*/
+    text-align: center;
+ }
+
+    li.sticky-note {
+        width: 250px;
+        height: 250px;
+        background-color: lightyellow;
+        padding: 1.25rem;
+        text-align: center;
+        font-family: 'Homemade Apple';
+        font-size: 2rem;
+        list-style: none;
+        margin: 1rem;
+        box-shadow: 2.5px 2.5px 1.25px #888888;
+        line-height: 3.5rem;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    p.sticky-note-title {
+        font-weight: bolder;
+        border-bottom: solid 1px;
+    }
+
+    li.insights.sticky-note{
+        height: 300px;
+        width: 300px;
+    }
+
+    p.italics-question {
+        padding-right: 30rem;
+        padding-left: 30rem;
+        font-style: italic;
+        font-size: 2rem;
+        font-family: Quicksand;
+    }
+
+    img.zote-logo {
+        position: relative;
+        left: 40%;
+        padding: 25px;
+        border-radius: 5%;
+    }
+
+ .beingamusician-main {
+    position: absolute;
+    background-color: white;
+}
+
+ .designingamessage-main {
+    position: absolute;
+    background-color: white;
+    display: none;
  }
