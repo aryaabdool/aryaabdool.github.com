@@ -1,8 +1,19 @@
 /*Photo should change with each hover & click*/
-.placeholder-proto {
-    position: absolute;
-    top: 25rem;
-    left: -5rem;
+img.placeholder-proto.interest-proto {
+    position: fixed;
+    bottom:0;
+ }
+
+img.placeholder-proto.edu-proto {
+    position: fixed;
+    bottom: 0;
+    left: 10rem;
+}
+
+img.placeholder-proto.experience-proto{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
 }
 
 /*Resume pieces*/
