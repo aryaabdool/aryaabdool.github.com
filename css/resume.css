@@ -124,10 +124,25 @@
     padding-top: 10rem;
     overflow: scroll;
 }
+	
+div.interest-containers {
+
+}	
+	div.interest {
+		background-image: url(../images/pineapple.jpg);
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+	/*ul.interest-list {
+		text-align: center;
+		padding: 5rem;
+	}
+		
 		li.interest-list {
-			height: 100px;
-	    	width: 100px;
-			background: white;
+			height: 150px;
+	    	width: 150px;
+			background-image: url("images/pineapple.jpg");
 			border: solid 3px #fdd12d;
 	    	border-radius: 50%;
 	    	text-align: center;
@@ -135,4 +150,5 @@
 	    	list-style: none;
 	    	display: inline-block;
 	    	vertical-align: top;
-		}
+	    	margin: 3rem;
+		}*/
