@@ -3,15 +3,16 @@ img {
     vertical-align: middle;
     position: fixed;
     bottom: -5rem;
-    left: 2%;
+    left: 2.5%;
 }
 
 h3 {
 	position: fixed;
     top: 40%;
-    left: 40%;
+    right: 5%;
     font-family: Quicksand;
     font-size: 5rem;
     line-height: 5rem;
-    width: 60rem;
+    width: 45%;
+    text-align: center;
 }
