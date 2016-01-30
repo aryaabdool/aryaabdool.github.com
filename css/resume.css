@@ -141,9 +141,18 @@ div.interest-containers {
 }	
 	div.interest {
 		background-image: url(../images/pineapple.jpg);
-		width: 150px;
-		height: 150px;
-		border-radius: 50%;
+	    width: 150px;
+	    height: 150px;
+	    border-radius: 50%;
+	    display: inline-block;
+	    margin: 2rem;
+	    text-align: center;
+	    padding: 6rem 0;
+	    vertical-align: top;
+	    font-size: 1.75rem;
+	    font-weight: bold;
+	    font-family: Merriweather;
+	    border: solid #C4EACD 5px;
 	}
 	/*ul.interest-list {
 		text-align: center;
