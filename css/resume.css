@@ -136,39 +136,33 @@ img.placeholder-proto.experience-proto{
     overflow: scroll;
 }
 	
-div.interest-containers {
 
-}	
+div.interests-containers {
+	margin: 0 auto;
+	width: 50%;
+}
 	div.interest {
 		background-image: url(../images/pineapple.jpg);
-	    width: 150px;
-	    height: 150px;
+	    width: 175px;
+	    height: 175px;
 	    border-radius: 50%;
 	    display: inline-block;
-	    margin: 12rem 2rem;
+	    margin: 2rem 0.5rem;
 	    text-align: center;
-	    padding: 6rem 0;
+	    padding: 7rem 0;
 	    vertical-align: top;
 	    font-size: 1.75rem;
 	    font-weight: bold;
 	    font-family: Merriweather;
 	    border: solid #C4EACD 5px;
 	}
-	/*ul.interest-list {
-		text-align: center;
-		padding: 5rem;
+
+	a.interests {
+		color:black;
 	}
-		
-		li.interest-list {
-			height: 150px;
-	    	width: 150px;
-			background-image: url("images/pineapple.jpg");
-			border: solid 3px #fdd12d;
-	    	border-radius: 50%;
-	    	text-align: center;
-	    	padding-top: 3rem;
-	    	list-style: none;
-	    	display: inline-block;
-	    	vertical-align: top;
-	    	margin: 3rem;
-		}*/
+	div.interest:hover {
+		background-image: none;
+		background-color: #C4EACD;
+		color: white;
+		border: solid #fdd12d 5px;
+	}
